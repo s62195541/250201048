@@ -18,7 +18,7 @@ def main():
   is_prime(n1)
   
   n2=int(input('Enter a number'))
-  is_prime(2)
+  is_prime(n2)
 
   print_primes_between(n1,n2)
 main()
