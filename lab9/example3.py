@@ -6,4 +6,4 @@ def get_evens(alist):
        return 0 + get_evens(alist[1::])
   else:
     return 0
-print(get_evens([0,1,2,3,4,5]))
+print(get_evens([0,1,2,3,4,5,6]))
