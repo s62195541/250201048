@@ -35,7 +35,7 @@ class Company:
     return summ / len(self.employee_list)
 def display(self):
   for emp in self.employee_list:
-  print("name:",emp.get_name(),"salary:",emp.get_salary())
+    print("name:",emp.get_name(),"salary:",emp.get_salary())
 
 
 
@@ -51,7 +51,5 @@ c.add_employee(e2)
 c.add_employee(e3)
 c.add_employee(90)
 c.display()
-
-
 
 print("Average Salary:",c.calc_ave_salary())
